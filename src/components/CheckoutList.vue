@@ -78,16 +78,16 @@ export default {
             this.Phonenumber = "";
         },
     },
-    computed: {
-        valid() {
-            var TxtValid = /^[a-zA-Z]+$/
-            var IntValid = /^\d+$/
-            if (TxtValid.test(this.FirstName) && TxtValid.test(this.SecondName) &&
-                IntValid.test(this.Phonenumber) && (this.cart.length > 0)) {
-                return true;
-            }
+    // computed: {
+    //     valid() {
+    //         var TxtValid = /^[a-zA-Z]+$/
+    //         var IntValid = /^\d+$/
+    //         if (TxtValid.test(this.FirstName) && TxtValid.test(this.SecondName) &&
+    //             IntValid.test(this.Phonenumber) && (this.cart.length > 0)) {
+    //             return true;
+    //         }
 
-        },
-    },
+    //     },
+    // },
 };
 </script>
