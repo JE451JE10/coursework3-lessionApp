@@ -1,6 +1,5 @@
 # afterschoollesson
-Github link fornt end = https://github.com/JE451JE10/coursework3-lession
-Github url fornt end = https://je451je10.github.io/coursework3-lession
+Github link fornt end = https://github.com/JE451JE10/coursework3-lessionApp
 Github url back end from coursework2= https://github.com/JE451JE10/coursework2-lession-back-end
 Heroku mongodb server = https://coursework2-lession.herokuapp.com
 Heroku mongodb server order= https://coursework2-lession.herokuapp.com/collection/order
