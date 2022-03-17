@@ -28,7 +28,7 @@
             <LessonList :lessons="lessons" @addlessons="addToCart" id="lesson"></LessonList>
         </div>
         <div else>
-            <CheckoutList :cart="cart" @removelessons='deleteLesson' id="cart"></CheckoutList>
+            <CheckoutList :cart="cart" @removelessons='deleteLesson'></CheckoutList>
         </div>
     </main>
 </div>
@@ -105,15 +105,5 @@ export default {
     background-color: lightblue
 }
 
-#cart {
-   font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 0px;
-    gap: 10px;
-    border: 5px solid blue;
-    background-color: lightblue
-}
+
 </style>
